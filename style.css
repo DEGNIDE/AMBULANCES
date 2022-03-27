@@ -10,3 +10,15 @@ h1{
 h2{
     text-align: center;
 }
+.first{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    height:35px ;
+}
+.jour p input{
+    width: 30px;
+} 
+.jour p label{
+    width: 100px;
+}
