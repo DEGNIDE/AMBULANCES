@@ -1,24 +1,30 @@
 body{
     background-color: rgb(221, 235, 230);
+    
 }
-h1{
-    text-align: center;
-    text-decoration: rgb(1, 24, 24);
-    font-size: 40px;
-    text-decoration: underline;
-}
-h2{
+h1, h2{
     text-align: center;
 }
-.first{
+.one{
     display: flex;
     justify-content: center;
-    justify-content: space-around;
-    height:35px ;
 }
-.jour p input{
-    width: 30px;
-} 
-.jour p label{
-    width: 100px;
+.item{
+    width: 150px;
+    height: 25px;
+}
+.two{
+    display: flex;
+    justify-content: center;
+}
+.three{
+    display: flex;
+    justify-content: center;
+}
+.four{
+    display: flex;
+    justify-content: center;
+}
+p{
+    text-align: center;
 }
